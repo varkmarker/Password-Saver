@@ -5,7 +5,7 @@ const fs = require("fs");
 const bodyParser = require("body-parser");
 require('dotenv').config()
 const mysql = require('mysql2');
-const connection = mysql.createConnection(process.env.DATABASE_URL = 'mysql://fticgrll18u1uq87almi:pscale_pw_uaPC5B1dB8LTTm6aMPtTUaAODtp2QEsoHIluIyaVvdO@aws.connect.psdb.cloud/password_lists?ssl={"rejectUnauthorized":true}')
+const connection = mysql.createConnection(process.env.DATABASE_URL='mysql://zin1oonoocx7q8r7hxbe:pscale_pw_DwpSUqx4oGhwgKNJetL2kiiFWIRtqcuQSMpuUSV57TO@aws.connect.psdb.cloud/password_lists?ssl={"rejectUnauthorized":true}')
 app.use(express.static(__dirname + "/public"));
 app.use(bodyParser.urlencoded({ extended: false }));
 
